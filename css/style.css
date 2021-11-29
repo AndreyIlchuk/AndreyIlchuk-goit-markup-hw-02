@@ -478,16 +478,19 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel-link {
+  position: absolute;
   width: 231px;
   height: 21px;
   left: 0px;
   top: 50px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover {
