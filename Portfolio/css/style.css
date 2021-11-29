@@ -1,9 +1,379 @@
-.link {
-  color: #000;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #ffffff;
 }
-.link:hover {
+body {
+  font-family: Roboto, sans-serif;
+}
+/*top-line*/
+.top-line {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+
+.top-line-link {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.list {
+  list-style: none;
+}
+
+.top-line-link:hover {
   color: #2196f3;
 }
+
 .span {
   color: #2196f3;
 }
+.top-link {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 100px;
+  top: -15px;
+}
+.link1 {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.link2 {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.link3 {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header-mail-link {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.header-tel-link {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.portfolio {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 100px;
+  top: 174px;
+}
+.filters {
+  position: absolute;
+  width: 611px;
+  height: 54px;
+  left: -0px;
+  top: 0px;
+}
+.filtr1 {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+
+  background: #f5f4fa;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.filtr2 {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.filtr3 {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.filtr4 {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.filtr5 {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.container1 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container2 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container3 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container4 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container5 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container6 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container7 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container8 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.container9 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+
+  background: #2f303a;
+}
+.footer-link {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 50px;
+  color: #ffffff;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.footer-link:hover {
+  color: #2196f3;
+}
+.footer-text {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 110px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail-link {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel-link {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 60px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  
