@@ -107,7 +107,11 @@ ul {
 }
 /*Portfolio*/
 
+.filters-container {
+  width: 1170;
+}
 .filters {
+  display: flex;
 }
 .button {
   font-family: Roboto;
