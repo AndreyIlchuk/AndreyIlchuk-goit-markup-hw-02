@@ -43,8 +43,12 @@ ul {
   color: #2196f3;
 }
 .top-link {
+  margin-top: 32px;
+  margin-left: 93px;
+  display: flex;
 }
 .link1 {
+  margin-right: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -55,6 +59,7 @@ ul {
   color: #212121;
 }
 .link2 {
+  margin-right: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -74,7 +79,13 @@ ul {
   text-decoration: none;
   color: #212121;
 }
+.adress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .header-mail-link {
+  margin: 32px 50px 32px 331px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
