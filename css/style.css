@@ -27,8 +27,7 @@ ul {
   background: #ffffff;
   padding: 15px 0;
 }
-.top-line {
-}
+
 .header-container {
   align-items: center;
   display: flex;
@@ -98,6 +97,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
 .mail-link:hover {
   color: #2196f3;
 }
