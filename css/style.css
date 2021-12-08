@@ -19,6 +19,8 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*Top line*/
@@ -49,6 +51,7 @@ ul {
 }
 
 .top-link {
+  margin: 0;
   display: flex;
 }
 .link1:hover {
@@ -104,7 +107,12 @@ ul {
 .mail-link {
   margin-right: 50px;
   margin-left: 331px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
 }
@@ -144,6 +152,7 @@ ul {
   margin: 0 auto;
 }
 .text {
+  margin: 0pt;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -171,8 +180,10 @@ ul {
 }
 /*peculiarities-seсtion*/
 .section {
-  width: 1200px;
   padding: 94px 0;
+}
+.container-peculiarities {
+  width: 1200px;
   margin: 0 auto;
 }
 .section-peculiarities {
@@ -277,6 +288,7 @@ ul {
   display: flex;
 }
 .title-what-are-we-doing {
+  margin-bottom: 50px;
   text-align: center;
   font-family: Roboto;
   font-style: normal;
@@ -300,6 +312,7 @@ ul {
 /*our-team*/
 .team {
   display: flex;
+  margin: 0;
 }
 .our-team {
   text-align: center;
@@ -307,6 +320,7 @@ ul {
   background: #f5f4fa;
 }
 .title-our-team {
+  margin-bottom: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -374,6 +388,7 @@ ul {
 }
 
 .footer-text {
+  margin-top: 20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -405,6 +420,7 @@ ul {
 }
 
 .footer-tel-link {
+  margin-top: 9px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
